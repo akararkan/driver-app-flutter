@@ -145,10 +145,10 @@ class FeedBacksTab extends StatelessWidget {
                         const SizedBox(height: 12),
                         Row(
                           children: [
-                            const Icon(Icons.attach_money, color: Colors.orange, size: 24),
+                            const Icon(Icons.money, color: Color(0x4649054B), size: 24),
                             const SizedBox(width: 12),
                             Text(
-                              'Fare: \$${feedbackInfo['fare_amount']}',
+                              'Fare: IQD ${feedbackInfo['fare_amount']}',
                               style: const TextStyle(
                                 fontSize: 18,
                                 fontWeight: FontWeight.bold,
